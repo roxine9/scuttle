@@ -9,7 +9,9 @@ INSTALLATION
 ============
 
 * Use the SQL contained in tables.sql to create the necessary database tables. This file was written specifically for MySQL, so may need rewritten if you intend to use a different database system.
+（把目录中tables.sql导入数据库）
 
 * Edit config.inc.php.example and save the changes as a new config.inc.php file in the same directory.
+（编辑config.inc.php.example并另存为config.inc.php于原目录中）
 
 * Set the CHMOD permissions on the /cache/ subdirectory to 777
